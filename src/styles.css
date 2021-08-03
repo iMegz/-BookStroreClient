@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+::-webkit-scrollbar {
+  width: 0px;
+}
+.form-control {
+  margin-bottom: 1em;
+}

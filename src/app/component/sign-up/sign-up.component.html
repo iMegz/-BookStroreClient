@@ -1,0 +1,45 @@
+<main class="form-signin">
+  <form>
+    <h1 class="h3 mt-5 mb-3 fw-normal">Sign Up</h1>
+
+    <div class="form-floating">
+      <input
+        [formControl]="username"
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Username"
+      />
+      <label for="floatingInput">Username</label>
+    </div>
+    <div class="form-floating">
+      <input
+        [formControl]="email"
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Username"
+      />
+      <label for="floatingInput">Email</label>
+    </div>
+    <div class="form-floating">
+      <input
+        [formControl]="password"
+        type="password"
+        class="form-control"
+        id="floatingPassword"
+        placeholder="Password"
+      />
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <button
+      class="w-100 btn btn-lg btn-primary"
+      (click)="signUp()"
+      type="submit"
+    >
+      Login
+    </button>
+    <p class="mt-5 mb-3 text-muted">© Megz books store</p>
+  </form>
+</main>
